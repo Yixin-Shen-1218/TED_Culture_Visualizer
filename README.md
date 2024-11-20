@@ -1,4 +1,13 @@
 # TED_Culture_Visualizer
+
+<p align="center">
+  <img src="tmvib5V8Nw 0 seq2seq Italian.gif" alt="example from visualization server">
+  <br>
+  <i>Example output from the visualization server</i>
+</p>
+
+
+
 The Blender script can be used directly within Blender, which is helpful if you have Blender installed and want to experiment with the visualizer. I recommend using Blender’s UI for a more interactive visualization experience.
 
 You can render a character animation from a set of generated PKL and WAV files.
@@ -18,7 +27,7 @@ Then use common like: **'ffmpeg', '-r', '30', '-y', '-i', img_seq, '-i', audio_p
 
 
 
-Note that we refined rotations for some joints due to the articulation differences between the rigged skeleton and synthesized skeleton by the gesture generation model. It followed https://github.com/ai4r/Gesture-Generation-from-Trimodal-Context.
+Note that we refined rotations for some joints due to the articulation differences between the rigged skeleton and synthesized skeleton by the gesture generation model. It followed https://github.com/ai4r/Gesture-Generation-from-Trimodal-Context and do some modification for the TED-Culture dataset.
 
 
 
@@ -26,5 +35,5 @@ Note that we refined rotations for some joints due to the articulation differenc
 
 The codebase is developed based on [Speech Gesture Generation from the Trimodal Context of Text, Audio, and Speaker Identity](https://github.com/ai4r/Gesture-Generation-from-Trimodal-Context) of Yoon et al.
 
-The visualization mesh is developed based on [Genea_Visualizer](https://github.com/TeoNikolov/genea_visualizer/tree/archive_2022) of Kucherenko et al.
+The visualization mesh is developed based on the mesh in [Genea_Visualizer](https://github.com/TeoNikolov/genea_visualizer/tree/archive_2022) of Kucherenko et al.
 
