@@ -1,7 +1,7 @@
 # TED_Culture_Visualizer
 
 <p align="center">
-  <img src="tmvib5V8Nw 0 seq2seq Italian.gif" alt="example from visualization server">
+  <img src="tmvib5V8Nw 0 seq2seq Italian.gif" alt="Example output from the visualization code">
   <br>
   <i>Example output from the visualization code</i>
 </p>
